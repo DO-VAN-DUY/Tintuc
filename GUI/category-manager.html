@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Trang người dùng</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
+        rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/loading-bar.min.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+  
+    <style>
+        .loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body class="sb-nav-fixed" ng-app="myapp" ng-controller="managercontroller">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="index.html">Trang Chủ</a>
+        <!-- Sidebar Toggle-->
+        <button
+            class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+            id="sidebarToggle"
+            href="#!"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navbar Search-->
+        <form
+            class="
+              d-none d-md-inline-block
+              form-inline
+              ms-auto
+              me-0 me-md-3
+              my-2 my-md-0
+            "
+        ></form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                ><i class="fas fa-user fa-fw"></i
+                    ></a>
+                <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdown"
+                >
+                    <!-- <li><a class="dropdown-item" href="#!">Settings</a></li>
+                                <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                                <li><hr class="dropdown-divider" /></li> -->
+                    <li><button class="dropdown-item" ng-click="logout()">Đăng Xuất</button></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav" ng-app="myapp" ng-controller="managercontroller">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a href="userinfo-manager.html" class="nav-link" id="thongtintaikhoan" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            Thông tin tài khoản
+                        </a>
+                        <a href="{{route('manager.resetpass')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-key"></i></div>
+                            Đổi mật khẩu
+                        </a>
+                        <a href="{{route('manager.favorite')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-heart"></i></div>
+                            Mục yêu thích
+                        </a>
+                        <a href="browsepost-manager.html" class="nav-link" id="vietbai" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-circle"></i></div>
+                            Duyệt bài
+                        </a>
+                        <a href="manageposts-manager.html" class="nav-link" id="quanlybaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Quản lý bài viết
+                        </a>
+                        <a href="category-manager.html" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Quản lý loại bài viết
+                        </a>
+                        <a href="{{route('manager.notifications')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
+                            Thông báo
+                        </a>
+                        <a href="{{route('manager.chat')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-message"></i></div>
+                            Trò chuyện
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Đăng nhập bởi:</div>
+                    {{ user.taikhoan }}
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+           <main>
+            <div class="container-fluid px-4" id="loai" ng-init="loadBigCategories()">
+                <h1 class="mt-4">Quản lý loại bài</h1>
+                <div ng-show="loading" class="loader">
+            
+                </div>
+            
+                <div class="card-body" id="cgr" ng-hide="loading" >
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div id="postup" class="modal-dialog" role="document">
+                            <div class="modal-content" id="row_style">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                        ng-click="closeModal(1)">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="categoryform">
+                                        <div class="form-group">
+                                            <label for="">Tên loại</label>
+                                            <input ng-model="category.title" type="text" class="form-control"
+                                                placeholder="Tên loại" required name="category_title" list="bigcategories">
+                                            <div ng-show="categoryform.category_title.$invalid && categoryform.category_title.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập tên loại</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Metatitle</label>
+                                            <input ng-model="category.metatitle" type="text" class="form-control"
+                                                placeholder="Metatitle" required name="category_metatitle" list="bigcategories">
+                                            <div ng-show="categoryform.category_metatitle.$invalid && categoryform.category_metatitle.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập meta</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Mô tả</label>
+                                            <textarea rows="10" style="resize: none" ng-model="category.description" type="text" class="form-control"
+                                                placeholder="Mô tả" required name="category_description"> </textarea>
+                                            <div ng-show="categoryform.category_description.$invalid && categoryform.category_description.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập mô tả</span>
+                                            </div>
+                                        </div>
+                                        <!-- <fieldset ng-disabled="watch">
+                                            <div class="form-group">
+                                                <label for="">Tên loại nhỏ</label>
+                                                <input ng-model="small_category.title" type="text" class="form-control"
+                                                    placeholder="Tên loại" required name="small_category_title">
+                                                <div ng-show="smallcategoryform.small_category_title.$invalid && smallcategoryform.small_category_title.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập tên loại</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Metatitle</label>
+                                                <input ng-model="small_category.metatitle" type="text" class="form-control"
+                                                    placeholder="Tên loại" required name="small_category_metatitle">
+                                                <div ng-show="smallcategoryform.small_category_metatitle.$invalid && smallcategoryform.small_category_metatitle.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập meta</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Mô tả nhỏ</label>
+                                                <textarea rows="10" style="resize: none" ng-model="small_category.description" type="text" class="form-control"
+                                                    placeholder="Mô tả" required name="small_category_description"> </textarea>
+                                                <div ng-show="smallcategoryform.small_category_description.$invalid && smallcategoryform.small_category_description.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập mô tả</span>
+                                                </div>
+                                        </fieldset> -->
+                                    </form>
+                                </div>
+            
+                                <div class="modal-footer">
+                                    <span class="loader" ng-init="loading=false" ng-show="loading"
+                                        style="width: 37px; height: 37px"></span>
+                                    <button type="button" class="btn btn-secondary" ng-click="closeModal(1)">Đóng</button>
+                                    <button type="button" class="btn btn-primary" id="addbtn1" ng-click="addCategory()"
+                                        >Thêm</button>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+            
+            
+                    </div>
+                    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div id="postup" class="modal-dialog" role="document">
+                            <div class="modal-content" id="row_style">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                        ng-click="closeModal(2)">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="categoryform">
+                                        <div class="form-group">
+                                            <label for="">Tên loại</label>
+                                            <select ng-model="category.id" 
+                                            ng-change="loadDescription();changeCategory2()"
+                                                ng-options="item.id as item.title for item in bigcategories"
+                                                class="form-select mt-2" aria-label="Default select example" name="category"
+                                                required>
+                                            </select>
+                                            <div ng-show="categoryform.category_title.$invalid && categoryform.category_title.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập tên loại</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <label for="">Metatitle</label>
+                                            <input ng-model="category.metatitle" type="text" class="form-control"
+                                                placeholder="Metatitle" required name="category_metatitle" list="bigcategories">
+                                            <div ng-show="categoryform.category_metatitle.$invalid && categoryform.category_metatitle.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập meta</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Mô tả</label>
+                                            <textarea rows="10" style="resize: none" ng-model="category.description" type="text" class="form-control"
+                                                placeholder="Mô tả" required name="category_description"> </textarea>
+                                            <div ng-show="categoryform.category_description.$invalid && categoryform.category_description.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập mô tả</span>
+                                            </div>
+                                        </div> -->
+                                        <fieldset ng-disabled="watch">
+                                            <div class="form-group">
+                                                <label for="">Tên loại nhỏ</label>
+                                                <input ng-model="small_category.title" type="text" class="form-control"
+                                                    placeholder="Tên loại" required name="small_category_title">
+                                                <div ng-show="smallcategoryform.small_category_title.$invalid && smallcategoryform.small_category_title.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập tên loại</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Metatitle</label>
+                                                <input ng-model="small_category.metatitle" type="text" class="form-control"
+                                                    placeholder="Tên loại" required name="small_category_metatitle">
+                                                <div ng-show="smallcategoryform.small_category_metatitle.$invalid && smallcategoryform.small_category_metatitle.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập meta</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Mô tả nhỏ</label>
+                                                <textarea rows="10" style="resize: none" ng-model="small_category.description" type="text" class="form-control"
+                                                    placeholder="Mô tả" required name="small_category_description"> </textarea>
+                                                <div ng-show="smallcategoryform.small_category_description.$invalid && smallcategoryform.small_category_description.$dirty"
+                                                    style="color:red" role="alert">
+                                                    <span class="text-danger">Hãy nhập mô tả</span>
+                                                </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+            
+                                <div class="modal-footer">
+                                    <span class="loader" ng-init="loading=false" ng-show="loading"
+                                        style="width: 37px; height: 37px"></span>
+                                    <button type="button" class="btn btn-secondary" ng-click="closeModal(2)">Đóng</button>
+                                    <button type="button" class="btn btn-primary" id="addbtn2" ng-click="updateSmallCategory()"
+                                       >Sửa</button>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+            
+            
+                    </div>
+                    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div id="postup" class="modal-dialog" role="document">
+                        <div class="modal-content" id="row_style">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                    ng-click="closeModal(3)">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form name="categoryform">
+                                    <div class="form-group">
+                                        <label for="">Tên loại</label>
+                                        <input ng-model="category.title" type="text" class="form-control"
+                                        placeholder="Tên loại" required name="category_title" list="bigcategories">
+                                        <!-- {{-- <select ng-model="category.id" ng-change="changeCategory()"
+                                            ng-options="item.id as item.title for item in bigcategories track by item.id"
+                                            class="form-select mt-2" aria-label="Default select example" name="category"
+                                            required>
+                                        </select> --}} -->
+                                        <div ng-show="categoryform.category_title.$invalid && categoryform.category_title.$dirty"
+                                            style="color:red" role="alert">
+                                            <span class="text-danger">Hãy nhập tên loại</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Metatitle</label>
+                                        <input ng-model="category.metatitle" type="text" class="form-control"
+                                            placeholder="Metatitle" required name="category_metatitle" list="bigcategories">
+                                        <div ng-show="categoryform.category_metatitle.$invalid && categoryform.category_metatitle.$dirty"
+                                            style="color:red" role="alert">
+                                            <span class="text-danger">Hãy nhập meta</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Mô tả</label>
+                                        <textarea rows="10" style="resize: none" ng-model="category.description" type="text" class="form-control"
+                                            placeholder="Mô tả" required name="category_description"> </textarea>
+                                        <div ng-show="categoryform.category_description.$invalid && categoryform.category_description.$dirty"
+                                            style="color:red" role="alert">
+                                            <span class="text-danger">Hãy nhập mô tả</span>
+                                        </div>
+                                    </div>
+                    
+                                </form>
+                            </div>
+            
+                            <div class="modal-footer">
+                                <span class="loader" ng-init="loading=false" ng-show="loading"
+                                    style="width: 37px; height: 37px"></span>
+                                <button type="button" class="btn btn-secondary" ng-click="closeModal(3)">Đóng</button>
+                                <button type="button" class="btn btn-primary" id="addbtn3" ng-click="updateBigCategory()"
+                                   >Sửa</button>
+                            </div>
+                        </div>
+            
+                    </div>
+            
+            
+            
+                </div>
+                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div id="postup" class="modal-dialog" role="document">
+                    <div class="modal-content" id="row_style">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                ng-click="closeModal(4)">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form name="categoryform">
+                                <div class="form-group">
+                                    <label for="">Tên loại</label>
+                                    <!-- <input ng-model="category.title" type="text" class="form-control"
+                                    placeholder="Tên loại" required name="category_title" list="bigcategories"> -->
+                                    <select ng-model="category.id" ng-change="changeCategory2()"
+                                        ng-options="item.id as item.title for item in bigcategories"
+                                        class="form-select mt-2" aria-label="Default select example" name="category"
+                                        required>
+                                    </select>
+                                    <div ng-show="categoryform.category_title.$invalid && categoryform.category_title.$dirty"
+                                        style="color:red" role="alert">
+                                        <span class="text-danger">Hãy nhập tên loại</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Tiêu đề</label>
+                                    <input ng-model="small_category.title" type="text" class="form-control"
+                                        placeholder="Tiêu đề" required name="small_category_title" list="bigcategories">
+                                    <div ng-show="categoryform.small_category_title.$invalid && categoryform.small_category_title.$dirty"
+                                        style="color:red" role="alert">
+                                        <span class="text-danger">Hãy nhập tiêu đề</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Metatitle</label>
+                                    <input ng-model="small_category.metatitle" type="text" class="form-control"
+                                        placeholder="Metatitle" required name="small_category_metatitle" list="bigcategories">
+                                    <div ng-show="categoryform.small_category_metatitle.$invalid && categoryform.small_category_metatitle.$dirty"
+                                        style="color:red" role="alert">
+                                        <span class="text-danger">Hãy nhập meta</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Mô tả</label>
+                                    <textarea rows="10" style="resize: none" ng-model="small_category.description" type="text" class="form-control"
+                                        placeholder="Mô tả" required name="small_category_description"> </textarea>
+                                    <div ng-show="categoryform.small_category_description.$invalid && categoryform.small_category_description.$dirty"
+                                        style="color:red" role="alert">
+                                        <span class="text-danger">Hãy nhập mô tả</span>
+                                    </div>
+                                </div>
+                
+                            </form>
+                        </div>
+        
+                        <div class="modal-footer">
+                            <span class="loader" ng-init="loading=false" ng-show="loading"
+                                style="width: 37px; height: 37px"></span>
+                            <button type="button" class="btn btn-secondary" ng-click="closeModal(3)">Đóng</button>
+                            <button type="button" class="btn btn-primary" id="addbtn3" ng-click="addSmallCategory()"
+                               >Thêm</button>
+                        </div>
+                    </div>
+        
+                </div>
+        
+        
+        
+            </div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                        ng-click="showModal3()"> Thêm loại </button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                        ng-click="showModal5()"> Thêm loại nhỏ </button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"
+                        ng-click="showModal4()"> Sửa </button>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal"
+                        ng-click="showModal()"> Xóa </button>
+                    <div class="form-group">
+                        <select ng-model="category.id" ng-change="changeCategory2()"
+                            ng-options="item.id as item.title for item in bigcategories" class="form-select mt-2"
+                            aria-label="Default select example" name="category" required>
+                        </select>
+                        <p class="mt-3">{{ category.description }}</p>
+                        <!-- {{-- <select ng-model="small_category.id" ng-change="loadDescription()"
+                        ng-options="item.id as item.title for item in smallcategories"
+                        class="form-select mt-2" aria-label="Default select example" name="small_category" required>
+                    </select>
+                    <p class="mt-3">@{{ small_category.description }}</p> --}} -->
+                        <table class="table table-bordered" style="vertical-align: middle; text-align:center" id="posts">
+                            <thead>
+                                <tr>
+                                    <th scope="col">STT</th>
+                                    <th scope="col">Tên loại</th>
+                                    <th scope="col">Mô tả</th>
+                                    <th scope="col">Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableposts">
+                                <tr ng-repeat="small in smallcategories">
+                                    <td scope="row">{{ $index + 1 }}</td>
+                                    <td>{{ small.title }}</td>
+                                    <td>{{ small.description }}</td>
+                                    <td scope="col">
+                                        <button class="btn btn-warning m-1" ng-click="showModal2(small.id)"><i
+                                                class="fa-solid fa-pen"></i></button>
+                                        <button class="btn btn-danger m-1" ng-click="deleteModal(small.id)"><i
+                                                class="fa-solid fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <style>
+                    #row_style {
+                        margin-top: 30px;
+                    }
+            
+                    #submit {
+                        display: block;
+                        margin: auto;
+                    }
+            
+                </style>
+            
+                <!-- you need to include the shieldui css and js assets in order for the charts to work -->
+                <link rel="stylesheet" type="text/css"
+                    href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+                <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+            
+            </div>
+            
+           </main>
+        </div>
+    </div>
+
+
+</div>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+></script>
+<script src="/js/ckeditor/ckeditor.js"></script>
+<script src="/js/ckeditor/adapters/jquery.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/angular.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/angular-resource.min.js"></script>
+<script src="/js/loading-bar.min.js"></script>
+<script src="/js/angular-messages.js"></script>
+<script src="/js/ng-file-upload.min.js"></script>
+<script src="/js/myapp.js"></script>
+<script src="/js/ManagerController.js"></script>
+<!-- @yield('js')
+@yield('ckeditor') -->
+
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Trang người dùng</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
+        rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/loading-bar.min.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+  
+    <style>
+        .loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body class="sb-nav-fixed" ng-app="myapp" ng-controller="managercontroller">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="index.html">Trang Chủ</a>
+        <!-- Sidebar Toggle-->
+        <button
+            class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+            id="sidebarToggle"
+            href="#!"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navbar Search-->
+        <form
+            class="
+              d-none d-md-inline-block
+              form-inline
+              ms-auto
+              me-0 me-md-3
+              my-2 my-md-0
+            "
+        ></form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                ><i class="fas fa-user fa-fw"></i
+                    ></a>
+                <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdown"
+                >
+                    <!-- <li><a class="dropdown-item" href="#!">Settings</a></li>
+                                <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                                <li><hr class="dropdown-divider" /></li> -->
+                    <li><button class="dropdown-item" ng-click="logout()">Đăng Xuất</button></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav" ng-app="myapp" ng-controller="managercontroller">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a href="userinfo-manager.html" class="nav-link" id="thongtintaikhoan" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            Thông tin tài khoản
+                        </a>
+                        <a href="{{route('manager.resetpass')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-key"></i></div>
+                            Đổi mật khẩu
+                        </a>
+                        <a href="{{route('manager.favorite')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-heart"></i></div>
+                            Mục yêu thích
+                        </a>
+                        <a href="browsepost-manager.html" class="nav-link" id="vietbai" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-circle"></i></div>
+                            Duyệt bài
+                        </a>
+                        <a href="{{route('manager.manageposts')}}" class="nav-link" id="quanlybaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Quản lý bài viết
+                        </a>
+                        <a href="category-manager.html" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Quản lý loại bài viết
+                        </a>
+                        <a href="{{route('manager.notifications')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
+                            Thông báo
+                        </a>
+                        <a href="{{route('manager.chat')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-message"></i></div>
+                            Trò chuyện
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Đăng nhập bởi:</div>
+                    {{ user.taikhoan }}
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+           <main>
+            <div class="card-body" ng-init="getPosts();loadBigCategories()" >
+                <h2>Quản lý bài viết</h2>
+                <div ng-show="loading" class="loader">
+            
+                </div>
+                <div id="main" ng-hide="loading" class="card mb-4">
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div id="postup" class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" id="row_style">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                    ng-click="closeModal('')">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form name="postform">
+                                    <fieldset ng-disabled="watch">
+                                       
+                                        <div class="form-group">
+                                            <label for="">Tiêu đề</label>
+                                            <input ng-model="post.title" type="text" class="form-control"
+                                                placeholder="Tiêu đề" required name="title">
+                                            <div ng-show="postform.title.$invalid && postform.title.$dirty" style="color:red"
+                                                role="alert">
+                                                <span class="text-danger">Hãy nhập tiêu đề</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="">Ngày viết</label>
+                                            <input id="currentdate" ng-model="post.created_at" type="text" readonly
+                                                class="form-control" style="color: rgba(83, 83, 81, 0.87);">
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="">metatitle</label>
+                                            <input name="metatitle" ng-model="post.metatitle" type="text" class="form-control"
+                                                placeholder="metatitle" required>
+                                            <div ng-show="postform.metatitle.$invalid && postform.metatitle.$dirty"
+                                                style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập metatitle</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="">Ảnh bài viết</label> <br>
+                                            <img id="banner" ng-src="{{ imageSource }}"
+                                                style="width: 480px; height: 360px">
+                                            <label for="files" class="btn btn-primary">Chọn ảnh</label>
+                                            <input valid-file ng-model="post.image" accept="image/*" class="form-control-file"
+                                                ng-file-select="onFileSelect($files)" id="files" style="visibility:hidden;"
+                                                type="file" name="image" required>
+                                            <div ng-show="!postform.image.$valid" style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập ảnh</span>
+                                            </div>
+                                        </div>
+            
+                                        <div class="form-group mt-3">
+                                            <label for="">Chọn thể loại</label>
+                                            <select ng-model="big_category" ng-change="changeCategory()"
+                                                ng-options="item.id as item.title for item in bigcategories "
+                                                class="form-select">
+                                            </select>
+                                            <select ng-model="post.small_category_id"
+                                                ng-options="item.id as item.title for item in smallcategories"
+                                                class="form-select mt-2" aria-label="Default select example"
+                                                name="small_category" required>
+                                            </select>
+                                            <div ng-show="postform.small_category.$invalid" style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập thể loại</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="editor2">Mô tả</label>
+                                            <textarea ck-editor="{property:'desc'}" ng-model="post.description" name="editor2" id="editor2" class="ckeditor"
+                                                required>
+                                    </textarea>
+                                            <span ng-show="postform.editor2.$error.desc" class="text-danger"
+                                                id="descerror">Hãy nhập
+                                                mô tả</span>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="editor1">Nội dung</label>
+                                            <textarea ck-editor="{property:'content'}" ng-model="post.content" name="editor1" id="editor1" class="ckeditor"
+                                                required>
+                                </textarea>
+                                            <span ng-show="postform.editor1.$error.content" class="text-danger"
+                                                id="posterror">Hãy
+                                                nhập nội dung</span>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+            
+                            <div class="modal-footer">
+                                <span class="loader" ng-init="loading=false" ng-show="loading"
+                                    style="width: 37px; height: 37px"></span>
+                                <button type="button" class="btn btn-secondary" ng-click="closeModal('')">Đóng</button>
+                                <button type="button" class="btn btn-primary" id="addbtn" ng-click="updatePost2()"
+                                    ng-disabled="postform.$invalid">Thêm</button>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+               
+                <table class="table table-bordered" style="vertical-align: middle; text-align:center" id="tableposts">
+                    <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">Ảnh</th>
+                            <th scope="col">Tiêu đề</th>
+                            <th scope="col">Thể loại</th>
+                            <th scope="col">Mô tả</th>
+                            <th scope="col">Ngày viết</th>
+                            <th scope="col">Lượt xem</th>
+                            <th scope="col">Trạng thái</th>
+                            <th scope="col">Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableposts">
+                        <tr ng-repeat="post in posts">
+                            <td scope="row">{{ (currentPage - 1) * itemPerPage + $index + 1 }}</td>
+                            <td><img width="240px" height="160px"
+                                    src="/storage/uploads2{{ post.image }}" alt=""></td>
+                            <td>{{ post.title }}</td>
+                            <td>{{ post.big_category }} - {{ post.small_category_title }}</td>
+                            <td ng-bind-html="post.description | unsafe"></td>
+                            <td>{{ post.created_at | date: 'dd/MM/yyyy H:mm:ss' }}</td>
+                            <td>{{ post.view }}</td>
+                            <td><span class="badge" ng-class="{'badge-danger':post.deleted_at,'badge-success':post.status=='live'}" >{{ post.status }}</span></td>
+                            <td scope="col">
+                                <button class="btn btn-primary m-1" ng-click="showPost(post.id);showModal()"><i
+                                        class="fa-solid fa-eye"></i></button>
+                                <button class="btn btn-warning m-1" ng-click="showPost3(post.id);showModal()"><i
+                                        class="fa-solid fa-pen"></i></button>
+                                <button class="btn btn-danger m-1" ng-click="deletePost(post.id)"><i
+                                        class="fa-solid fa-trash"></i>
+                                </button>
+                                <button class="btn btn-success m-1" ng-disabled="post.deleted_at==null" ng-click="restorePost(post.id)"><i
+                                    class="fa-solid fa-rotate-left"></i>
+                            </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row">
+                    <div class="col-md-6 col-md-push-4">
+                        <posts-pagination class="text-center"></posts-pagination>
+                        <!-- <div class="pagination">
+            
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+            <style>
+                .badge {
+                    display: inline-block;
+                    padding: 0.25em 0.4em;
+                    font-size: 75%;
+                    font-weight: 700;
+                    line-height: 1;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: baseline;
+                    border-radius: 0.25rem;
+                }
+            
+                .badge-warning {
+                    color: #212529;
+                    background-color: #ffc107;
+                }
+            
+                .badge-danger {
+                    color: #fff;
+                    background-color: #dc3545;
+                }
+            
+                .badge-success {
+                    color: #fff;
+                    background-color: #28a745;
+                }
+            
+            </style>
+            <script>
+                CKEDITOR.replace('editor1', {
+                    filebrowserBrowseUrl: '/ckfinder/ckfinder.html',
+                    filebrowserUploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files'
+                });
+            </script>
+            
+           </main>
+        </div>
+    </div>
+
+
+</div>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+></script>
+<script src="/js/ckeditor/ckeditor.js"></script>
+<script src="/js/ckeditor/adapters/jquery.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/angular.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/angular-resource.min.js"></script>
+<script src="/js/loading-bar.min.js"></script>
+<script src="/js/angular-messages.js"></script>
+<script src="/js/ng-file-upload.min.js"></script>
+<script src="/js/myapp.js"></script>
+<script src="/js/ManagerController.js"></script>
+<!-- @yield('js')
+@yield('ckeditor') -->
+
+</body>
+</html>

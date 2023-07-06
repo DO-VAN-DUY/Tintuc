@@ -1,0 +1,225 @@
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.csproj.AssemblyReference.cache
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfoInputs.cache
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfo.cs
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.csproj.CoreCompileInputs.cache
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cs
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\appsettings.Development.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\appsettings.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\configuration.Development.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.exe
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.deps.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.dev.json
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\gatetest.pdb
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\FluentValidation.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Ocelot.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\tai lieu\NetCore\gatetest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.Manifest.cache
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.xml
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\scopedcss\bundle\gatetest.styles.css
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.RazorTargetAssemblyInfo.cache
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.csproj.CopyComplete
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.dll
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.pdb
+E:\tai lieu\NetCore\gatetest\obj\Debug\net5.0\gatetest.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\appsettings.Development.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\appsettings.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\configuration.Development.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.exe
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.deps.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.dev.json
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\gatetest.pdb
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\FluentValidation.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Ocelot.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.Manifest.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.xml
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\scopedcss\bundle\gatetest.styles.css
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.RazorTargetAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.pdb
+E:\tai lieu\laptrinh\NetCore\api\gatetest\obj\Debug\net5.0\gatetest.genruntimeconfig.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\appsettings.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\appsettings.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\configuration.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.exe
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.dev.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\ref\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\gatetest.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\FluentValidation.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Ocelot.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.Manifest.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.xml
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\scopedcss\bundle\gatetest.styles.css
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.RazorTargetAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\ref\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\gatetest\obj\Debug\net5.0\gatetest.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\appsettings.Development.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\appsettings.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\configuration.Development.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.exe
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.deps.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.dev.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\ref\gatetest.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\FluentValidation.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Ocelot.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.Manifest.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.xml
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\scopedcss\bundle\gatetest.styles.css
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.RazorTargetAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.genruntimeconfig.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\appsettings.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\appsettings.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\configuration.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.exe
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.runtimeconfig.dev.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\ref\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\gatetest.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\FluentValidation.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Ocelot.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.MvcApplicationPartsAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.Manifest.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\staticwebassets\gatetest.StaticWebAssets.xml
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\scopedcss\bundle\gatetest.styles.css
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.RazorTargetAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\ref\gatetest.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\gatetest\obj\Debug\net5.0\gatetest.genruntimeconfig.cache

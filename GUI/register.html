@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Đăng ký | 24 News Game</title>
+    <!--Bootsrap 4 CDN-->
+    <!--Fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <!-- <meta content="{{@csrf_token()}}"> -->
+  </head>
+  <body ng-app="myapp" ng-controller="logincontroller">
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+        <div class="card">
+          <div class="card-header">
+            <h3>Đăng ký</h3>
+            <div class="d-flex justify-content-end social_icon">
+              <!-- {{--                    <span><i class="fab fa-twitter-square"></i></span>--}} -->
+            </div>
+          </div>
+          <div class="card-body">
+            <form ng-submit="register($event)">
+              <div class="input-group form-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-user"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Tên người dùng"
+                  name="name" ng-model="account.taikhoan"
+                />
+              </div>
+              <!-- @error('name')
+                        <span class="alert alert-danger d-block">{{$message}}</span>
+                    @enderror -->
+              <div class="input-group form-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  name="email" ng-model="account.email"
+                />
+              </div>
+              <!-- @error('email')
+                    <span class="alert alert-danger d-block">{{$message}}</span>
+                    @enderror -->
+              <div class="input-group form-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-key"></i
+                  ></span>
+                </div>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Mật khẩu"
+                  name="password" ng-model="account.matkhau"
+                />
+              </div>
+              <!-- @error('password')
+                    <span class="alert alert-danger d-block">{{$message}}</span>
+                    @enderror -->
+              <div class="input-group form-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-key"></i
+                  ></span>
+                </div>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Nhập lại mật khẩu"
+                  name="password_confirmation"
+                />
+              </div>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="w-100 btn float-right login_btn text-center"
+                >
+                  Đăng ký
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-center links">
+              Đã có tài khoản?<a href="/login.html">Đăng nhập ngay</a>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="#">Quên mật khẩu?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(() => {
+        // $("input").on("focusin", function () {
+        //   $(this).data("val", $(this).val());
+        // });
+
+        // $("input").on("change", function () {
+        //   var prev = $(this).data("val");
+        //   var current = $(this).val();
+        // });
+      });
+    </script>
+    <script src="/js/angular.js"></script>
+    <script src="/js/angular-resource.min.js"></script>
+    <script src="/js/loading-bar.min.js"></script>
+    <script src="/Js/myapp.js"></script>
+    <script src="/Js/LoginController.js"></script>
+  </body>
+</html>

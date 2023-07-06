@@ -1,0 +1,87 @@
+F:\net core\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+F:\net core\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+F:\net core\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+F:\net core\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.dll
+F:\net core\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+F:\net core\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

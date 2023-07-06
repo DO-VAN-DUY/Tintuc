@@ -1,0 +1,363 @@
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.json
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.exe
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.deps.json
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\API.pdb
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.dll
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.pdb
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\BLL.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\DAL.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Model.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\BLL.pdb
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Model.pdb
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\DAL.pdb
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\net core\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+F:\net core\BanOto\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.json
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.exe
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.deps.json
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\API.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\BLL.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\DAL.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Model.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\BLL.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\Model.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\API\bin\Debug\netcoreapp3.1\DAL.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.dll
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.pdb
+G:\OneDrive\Web API\Sinh vien\BanOto\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\appsettings.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.exe
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.deps.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\BLL.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\NguyenTrungHieu-Tk17.4\BanOto\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.exe
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.deps.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\api\btlapi\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.exe
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\API.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.dll
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\api\api\btlapi\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.exe
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.deps.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.pdb
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Azure.Core.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\tai lieu\laptrinh\NetCore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.exe
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.deps.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\API.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.Manifest.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAssets.xml
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\scopedcss\bundle\API.styles.css
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.RazorTargetAssemblyInfo.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.pdb
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Tai lieu\cac file lap trinh\Netcore\newapi\api\btlapi\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

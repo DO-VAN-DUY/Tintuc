@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Trang người dùng</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
+        rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Css/loading-bar.min.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+  
+    <style>
+        .loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body class="sb-nav-fixed" ng-app="myapp" ng-controller="admincontroller">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="index.html">Trang Chủ</a>
+        <!-- Sidebar Toggle-->
+        <button
+            class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+            id="sidebarToggle"
+            href="#!"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navbar Search-->
+        <form
+            class="
+              d-none d-md-inline-block
+              form-inline
+              ms-auto
+              me-0 me-md-3
+              my-2 my-md-0
+            "
+        ></form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                ><i class="fas fa-user fa-fw"></i
+                    ></a>
+                <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdown"
+                >
+                    <!-- <li><a class="dropdown-item" href="#!">Settings</a></li>
+                                <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                                <li><hr class="dropdown-divider" /></li> -->
+                    <li><button class="dropdown-item" ng-click="logout()">Đăng Xuất</button></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a href="/user/admin" class="nav-link" id="thongtintaikhoan" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            Thông tin tài khoản
+                        </a>
+                        <a href="{{route('admin.resetpass')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-key"></i></div>
+                            Đổi mật khẩu
+                        </a>
+                        <a href="{{route('logo.index')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-image"></i></div>
+                            Đổi Logo/Footer
+                        </a>
+                        <a href="{{route('admin.staffmanage.index')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-user"></i></div>
+                            Quản lý nhân viên
+                        </a>
+                        <a href="{{route('admin.statistical')}}" class="nav-link" id="doimatkhau" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                            Thống kê
+                        </a>
+                        <a href="{{route('admin.notifications')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
+                            Thông báo
+                        </a>
+                        <a href="{{route('admin.chat')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-message"></i></div>
+                            Trò chuyện
+                        </a>
+                        <a href="{{route('admin.chat')}}" class="nav-link" id="quanlyloaibaiviet" style="cursor: pointer;">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-trash"></i></div>
+                            Thùng rác
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Đăng nhập bởi:</div>
+                   {{ user.taikhoan }}
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4" id="nhanvien">
+                    <h1 class="mt-4">Quản lý nhân viên</h1>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitle">{{ modalTitle }}</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeModal()">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="myform" novalidate>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Tên nhân viên:</label>
+                                            <input type="text" class="form-control" id="name"
+                                                   ng-model="staff.hoten" name="hoten" required>
+                                            <div ng-show="myform.hoten.$invalid && myform.hoten.$dirty" style="color:red" role="alert">
+                                                <span class="text-danger" >Hãy nhập tên</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Địa chỉ:</label>
+                                            <input type="text" class="form-control" id="inputPassword"  name="address" ng-model="staff.diachi" required>
+                                            <div ng-messages="myform.address.$error" ng-show="myform.address.$invalid && myform.address.$dirty" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="required">Hãy nhập địa chỉ</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Ngày sinh:</label>
+                                            <input type="text" class="form-control" id="datepicker2"  ng-model="staff.ngaysinh" name="birthday" required>
+                                            <div ng-messages="myform.birthday.$error" ng-show="myform.birthday.$invalid && myform.birthday.$touched" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="required">Hãy nhập ngày sinh</span>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Giới tính:</label>
+                                            <select class="form-select" style="width: 100px"
+                                                    name="gender" ng-model="staff.gioitinh" id="" required>
+                                                <option value="Nam" selected>Nam</option>
+                                                <option value="Nữ">Nữ</option>
+                                            </select>
+                                            <div ng-show="myform.gender.$invalid && myform.gender.$touched" style="color:red" role="alert">
+                                                <span class="text-danger">Hãy nhập giới tính</span>
+                                               
+                                            </div>
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <label for="name" class="col-form-label">Ngày làm việc:</label>
+                                            <input type="text" class="form-control" id="datepicker"  ng-model="staff.start_day" name="start_day" readonly required>
+                                            <div ng-messages="myform.start_day.$error" ng-show="myform.start_day.$invalid && myform.start_day.$touched" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="required">Hãy nhập ngày làm</span>
+                
+                                            </div>
+                                        </div> -->
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Tên tài khoản:</label>
+                                            <input type="text" class="form-control" id="inputUsername"  ng-model="staff.taikhoan" name="username"  required>
+                                            <div ng-messages="myform.username.$error" ng-show="myform.username.$invalid && myform.username.$dirty" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="required">Hãy nhập tên tài khoản</span>
+                                                <!-- <div class="text-danger" ng-show="myform.username.$error.name ">Tên tài khoản đã trùng</div> -->
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Email:</label>
+                                            <input type="email" class="form-control" id="inputPassword"  ng-model="staff.email" name="email" required
+                                                   ng-pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" >
+                                            <div ng-messages="myform.email.$error" ng-show="myform.email.$error.required && myform.email.$dirty" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="required">Hãy nhập Email</span>                                                                                       
+                                            </div>
+                                            <div ng-messages="myform.email.$error" ng-show="myform.email.$error.pattern && myform.email.$dirty" style="color:red" role="alert">
+                                                <span class="text-danger" ng-message="pattern">Email không hợp lệ</span>
+                                               
+                                            </div>                                          
+                                           
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Mật khẩu:</label>
+                                            <input type="password" class="form-control" id="inputPass"  ng-model="staff.matkhau" name="password" ng-minlength="3" ng-maxlength="12" required>
+                                            <div ng-messages="myform.password.$error" ng-show="myform.password.$invalid && myform.password.$dirty" style="color:red" role="alert" >
+                                                <span class="text-danger" ng-message="required">Hãy nhập mật khẩu</span>
+                                                <span class="text-danger" ng-message="minlength">Mật khẩu quá ngắn</span>
+                                                <span class="text-danger" ng-message="maxlength">Mật khẩu quá dài</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <label for="name" class="col-form-label">SĐT:</label>
+                                            <input type="text" inputmode="numeric" pattern="[-+]?[0-9]*[.,]?[0-9]+" class="form-control" id="inputPassword" ng-model="staff.phone" name="phone" required ng-pattern="/^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$/" >
+                                            <div ng-show="myform.phone.$error.required && myform.phone.$dirty" style="color:red" role="alert" >
+                                                <span class="text-danger" >Hãy nhập SĐT</span>
+                                              
+                                            </div>
+                                            <div ng-show="myform.phone.$error.pattern && myform.phone.$dirty" style="color:red" role="alert" >
+                                                 <span class="text-danger" ng-message="pattern">SĐT không hợp lệ</span>
+                                              
+                                            </div>
+                                           
+                                        </div> -->
+                                        <div class="form-group">
+                                            <label for="name" class="col-form-label">Chức vụ:</label>
+                                            <select class="form-select" style="width: 150px"  ng-model="staff.role" id="" name="job" required>
+                                                <option value="Staff" selected>Nhân viên</option>
+                                                <option value="Manager">Quản lý</option>
+                                            </select>
+                                            <div ng-messages="myform.job.$error" ng-show="myform.job.$invalid && myform.job.$touched" style="color:red" role="alert" >
+                                                <span class="text-danger" ng-message="required">Hãy nhập chức vụ</span>                           
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">                           
+                                    <span class="loader" ng-init="loading=false" ng-show="loading" style="width: 37px; height: 37px"></span>
+                                    <button type="button" class="btn btn-secondary" ng-click="closeModal()">Đóng</button>
+                                    <button type="button" class="btn btn-primary" id="addbtn" ng-click="execute()" ng-disabled="myform.$invalid">Thêm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <!-- {{--    <form name="myform" novalidate>--}}
+                {{--        <div class="form-group row">--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Tên nhân viên</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="text" class="form-control" id="name" placeholder="Tên..."--}}
+                {{--                       ng-model="staff.name" name="name" required>--}}
+                {{--                <div ng-messages="myform.name.$error" ng-show="myform.name.$invalid && myform.name.$dirty" style="color:red" role="alert">--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập tên</span>--}}
+                {{--                </div>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Địa chỉ</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="text" class="form-control" id="inputPassword" placeholder="Địa chỉ..." name="address" ng-model="staff.address" required>--}}
+                {{--                <div ng-messages="myform.address.$error" ng-show="myform.address.$invalid && myform.address.$dirty" style="color:red" role="alert">--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập địa chỉ</span>--}}
+                {{--                </div>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Giới tính</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <select class="form-select" style="width: 100px"--}}
+                {{--                        ng-init="staff.gender = staff.gender || '1'" ng-model="staff.gender" id="">--}}
+                {{--                    <option value="1" selected>Nam</option>--}}
+                {{--                    <option value="0">Nữ</option>--}}
+                {{--                </select>--}}
+                {{--            </div>--}}
+                {{--            <label for="datepicker" class="col-sm-2 col-form-label">Ngày làm việc</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="text" class="form-control" id="datepicker" placeholder="Làm từ ngày dd/mm/yyyy" ng-model="staff.start_day" name="start_day" readonly>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Tên tài khoản</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="text" class="form-control" id="inputPassword" placeholder="Tên tài khoản..." ng-model="staff.username" name="username" check-unique="{property: 'name'}" required>--}}
+                {{--                <div ng-messages="myform.username.$error" ng-show="myform.username.$invalid && myform.username.$dirty" style="color:red" role="alert">--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập tên tài khoản</span>--}}
+                {{--                    <div class="text-danger" ng-show="myform.username.$error.name ">Tên tài khoản đã trùng</div>--}}
+                {{--                </div>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="email" class="form-control" id="inputPassword" placeholder="Email..." ng-model="staff.email" name="email" required--}}
+                {{--                       ng-pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" check-unique="{property: 'email'}" >--}}
+                {{--                <div ng-messages="myform.email.$error" ng-show="myform.email.$invalid && myform.email.$dirty" style="color:red" role="alert">--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập Email</span>--}}
+                {{--                    <span class="text-danger" ng-message="pattern">Email không hợp lệ</span>--}}
+                {{--                    <div class="text-danger" ng-show="myform.email.$error.email ">Email đã trùng</div>--}}
+                {{--                </div>--}}
+                
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Mật khẩu</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width:240px" type="password" class="form-control" id="inputPassword" placeholder="Mật khẩu..." ng-model="staff.password" name="password" ng-minlength="3" ng-maxlength="12" required>--}}
+                {{--                <div ng-messages="myform.password.$error" ng-show="myform.password.$invalid && myform.password.$dirty" style="color:red" role="alert" >--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập mật khẩu</span>--}}
+                {{--                    <span class="text-danger" ng-message="minlength">Mật khẩu quá ngắn</span>--}}
+                {{--                    <span class="text-danger" ng-message="maxlength">Mật khẩu quá dài</span>--}}
+                {{--                </div>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">SĐT</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <input style="width: 240px" type="number" class="form-control" id="inputPassword" placeholder="SĐT..." ng-model="staff.phone" name="phone" required ng-pattern="/^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$/" >--}}
+                {{--                <div ng-messages="myform.phone.$error" ng-show="myform.phone.$invalid && myform.phone.$dirty" style="color:red" role="alert" >--}}
+                {{--                    <span class="text-danger" ng-message="required">Hãy nhập SĐT</span>--}}
+                {{--                    <span class="text-danger" ng-message="pattern">SĐT không hợp lệ</span>--}}
+                {{--                </div>--}}
+                {{--            </div>--}}
+                {{--            <label for="inputPassword" class="col-sm-2 col-form-label">Chức vụ</label>--}}
+                {{--            <div class="col-sm-10">--}}
+                {{--                <select class="form-select" style="width: 150px" ng-init="staff.job = staff.job || 'staff'" ng-model="staff.job" id="">--}}
+                {{--                    <option value="staff" selected>Nhân viên</option>--}}
+                {{--                    <option value="manager">Quản lý</option>--}}
+                {{--                </select>--}}
+                {{--            </div>--}}
+                {{--            --}}{{--                            <button ng-click="addStaff()" class="btn btn-success" style="width: 120px;margin-top: 10px;margin-right: 10px;" >Thêm</button>--}}
+                {{--            --}}{{--                            <button class="btn btn-secondary" style="width: 120px;margin-top: 10px;">Tìm</button>--}}
+                {{--        </div>--}}
+                {{--    </form>--}} -->
+                    <div ng-show="loading" class="loader">
+                
+                    </div>
+                    <div id="main" ng-hide="loading" class="card mb-4">
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" ng-click="showModal()">
+                        <i class="fa-solid fa-plus"><span style="font-family: 'Numans', sans-serif">ADD</span></i>
+                     </button>
+                        <div class="card-body">
+                            <table class="table table-bordered" ng-init="getItems()">
+                                <thead>
+                                <tr>
+                                    <th scope="col">STT</th>
+                                    <th scope="col">Tên nhân viên</th>
+                                    <th scope="col">Địa chỉ</th>
+                                    <th scope="col">Giới tính</th>
+                                    <th scope="col">Ngày sinh</th>
+                                    <th scope="col">Tên tài khoản</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Chức vụ</th>
+                                    <th scope="col">Thao tác</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tablestaff">
+                                <tr ng-repeat="staff in staffs">
+                                    <td scope="row">{{ (currentPage-1) * itemPerPage + $index + 1 }}</td>
+                                    <td>{{ staff.hoten }}</td>
+                                    <td>{{ staff.diachi }}</td>
+                                    <td>{{ staff.gioitinh }}</td>
+                                    <td>{{ staff.ngaysinh | date: 'dd/MM/yyyy' }}</td>
+                                    <td>{{ staff.taikhoan }}</td>
+                                    <td>{{ staff.email }}</td>
+                                    <td>{{ staff.role }}</td>
+                                    <th scope="col"><button class="btn btn-primary" ng-click="showStaff(staff.id)">Sửa</button><button class="btn btn-danger" ng-click="deleteStaff(staff.id)">Xóa</button></th>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <div class="col-md-6 col-md-push-4">
+                                    <posts-pagination class="text-center"></posts-pagination>
+                                    <!-- <div class="pagination">
+                                       
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+                <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+                <script>
+                    $(()=>{
+                        $('#datepicker').datepicker({
+                            autoclose: true,
+                        });
+                        $( "#datepicker" ).datepicker( "option", "dateFormat", 'dd/mm/yy' );
+                        $('#datepicker2').datepicker();
+                        $( "#datepicker2" ).datepicker( "option", "dateFormat", 'dd/mm/yy' );
+                        $('#myModal').on('shown.bs.modal', function () {
+                            $('#myInput').trigger('focus')
+                        })
+                
+                    })
+                </script>
+                
+            </main>
+        </div>
+    </div>
+    </div>
+
+
+</div>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+></script>
+<script src="/js/ckeditor/ckeditor.js"></script>
+<script src="/js/ckeditor/adapters/jquery.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/angular.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/angular-resource.min.js"></script>
+<script src="/js/loading-bar.min.js"></script>
+<script src="/js/angular-messages.js"></script>
+<script src="/js/ng-file-upload.min.js"></script>
+<script src="/js/myapp.js"></script>
+<script src="/js/AdminController.js"></script>
+<!-- @yield('js')
+@yield('ckeditor') -->
+
+</body>
+</html>
